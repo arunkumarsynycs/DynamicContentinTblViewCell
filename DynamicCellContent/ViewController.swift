@@ -15,7 +15,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     @IBOutlet weak var tblView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print("hello")
         self.tblView.rowHeight=UITableView.automaticDimension
         self.tblView.estimatedRowHeight=300
         
